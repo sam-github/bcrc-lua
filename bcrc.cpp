@@ -28,7 +28,7 @@ DEALINGS IN THE SOFTWARE.
 -- bcrc - binding to boost/crc, a generic CRC library.
 
 For details on the meaning of bcrc.new() arguments, see the boost documentation
-at <http://www.boost.org/doc/libs/1_34_1/libs/crc/crc.html>.
+at http://www.boost.org/doc/libs/1_34_1/libs/crc/crc.html.
 
 The builtin CRC types such as bcrc.crc16() use specialized implementations that
 may have higher performance than those created by bcrc.new().
@@ -37,7 +37,7 @@ Also, note that process_bit() isn't supported by the optimal implementations,
 which makes it a bit harder to support, so I only supported byte-wise CRCs.
 
 Parameterizations of a number of CRC algorithms are described at
-<http://regregex.bbcmicro.net/crc-catalogue.htm>. The relationship
+http://regregex.bbcmicro.net/crc-catalogue.htm. The relationship
 between the catalogue's parameter names and the bcrc.new() arguments
 are:
 
