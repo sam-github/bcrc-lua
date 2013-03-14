@@ -46,7 +46,7 @@ are:
     Init   -> initial
     XorOut -> xor
     RefIn  -> reflect_input
-    RefOut -> reflect_output
+    RefOut -> reflect_remainder
 */
 
 // TODO - could using lua_pushnumber()/luaL_check|optnumber()/lua_Number

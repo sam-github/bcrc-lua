@@ -21,7 +21,7 @@ are:
     Init   -> initial
     XorOut -> xor
     RefIn  -> reflect_input
-    RefOut -> reflect_output
+    RefOut -> reflect_remainder
 
 - crc = bcrc.new(bits, poly[, initial, xor, reflect_input, reflect_remainder])
 
